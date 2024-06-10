@@ -4,11 +4,15 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
+    print("Hello")
+    print("I am doing my hime")
     return 'Hello, World!'
 
 if __name__ == '__main__':
     app.run()
 
+
+print("Hello Hi")
 # Path: applications/requirements.txt
 # flask
 
